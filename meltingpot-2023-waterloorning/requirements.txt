@@ -1,0 +1,10 @@
+# IMPORTANT - Ray is used for resource allocation in the challenge, 
+#             it is mandatory to have it in your runtime environment
+
+ray>=2.0.0      # If not using rllib baseline
+
+# ray[rllib]==2.6.1 # For rllib baseline - This particular ray version is mandatory (along with patches - See Dockerfile)
+# opencv-python     # For rllib baseline
+# torch             # For rllib torch baseline
+# tensorflow      # For rllib tensorflow baseline
+
